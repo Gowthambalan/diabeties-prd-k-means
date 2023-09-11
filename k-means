@@ -1,0 +1,24 @@
+ chronic damage and dysfunction of various tissues, especially the eyes, kidneys, heart, blood vessels, and nerves. 
+ Diabetes can be divided into two categories, type 1 diabetes (T1D) and type 2 diabetes (T2D). 
+Patients with type 1 diabetes are normally younger, mostly less than 30 years old.
+
+Type 2 diabetes occurs more commonly in middle-aged and elderly people, which is often associated with the occurrence of obesity, hypertension, dyslipidemia, arteriosclerosis, and other diseases.
+So, let’s begin the project on Diabetes Prediction Using K-Means.
+
+K-Means clustering:
+               Cluster is defined as groups of data points such that data points in a group will be similar or related to one another and different from the data points of another group. And the process is known as clustering.
+               The goal of clustering is to determine the intrinsic grouping in a set of unlabelled data. 
+               Clustering is a form of unsupervised learning since it doesn’t require labeled data.
+
+
+## euclidean distance formula
+
+
+                       ALGORITHM
+------------------------------------------------------------\
+
+1. First, initialize the number of clusters, K (Elbow method is generally used in selecting the number of clusters )
+2. Randomly select the k data points for centroid. A centroid is the imaginary or real location representing the center of the cluster.
+3. Categorize each data items to its closest centroid and update the centroid coordinates calculating the average of items coordinates categorized in that group so far
+4. Repeat the process for a number of iterations till successive iterations clusters data items into the same group.
+
